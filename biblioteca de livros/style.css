@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+header {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#add-book-form {
+    margin-top: 20px;
+}
+
+#add-book-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#add-book-form input[type="text"], #add-book-form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+#add-book-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#add-book-btn:hover {
+    background-color: #3e8e41;
+}
+
+#remove-book-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+#remove-book-btn {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#remove-book-btn:hover {
+    background-color: #cc0000;
+}
+
+#book-list-ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#book-list-ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#book-list-ul li:last-child {
+    border-bottom: none;
+}

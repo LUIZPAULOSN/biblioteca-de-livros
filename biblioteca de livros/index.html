@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca de Livros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Biblioteca de Livros</h1>
+    </header>
+    <main>
+        <section class="container">
+            <h2>Adicionar Livro</h2>
+            <form id="add-book-form">
+                <label for="book-title">Título do Livro:</label>
+                <input type="text" id="book-title" placeholder="Título do Livro">
+                <br>
+                <label for="book-author">Autor do Livro:</label>
+                <input type="text" id="book-author" placeholder="Autor do Livro">
+                <br>
+                <label for="book-year">Ano do Livro:</label>
+                <input type="number" id="book-year" placeholder="Ano do Livro">
+                <br>
+                <label for="book-genre">Gênero do Livro:</label>
+                <input type="text" id="book-genre" placeholder="Gênero do Livro">
+                <br>
+                <button id="add-book-btn">Adicionar Livro</button>
+            </form>
+        </section>
+        <section class="container">
+            <h2>Remover Livro</h2>
+            <input type="text" id="remove-book-input" placeholder="Remover livro">
+            <button id="remove-book-btn">Remover</button>
+        </section>
+        <section class="container">
+            <h2>Livros</h2>
+            <ul id="book-list-ul">
+                <!-- book list will be generated here -->
+            </ul>
+        </section>
+    </main>
+    <script src="livros.js"></script>
+</body>
+</html>
